@@ -1,244 +1,650 @@
-Prefix(:=<http://www.semanticweb.org/hendrik/ontologies/2022/9/untitled-ontology-51#>)
-Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
-Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
-Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
-Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
-Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-
-
-Ontology(<http://www.semanticweb.org/hendrik/ontologies/2022/9/untitled-ontology-51>
-Import(<https://big-map.github.io/BattINFO/ontology/BattINFO/0.3.0/battinfo.ttl>)
-
-Declaration(Class(:EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b))
-Declaration(Class(:EMMO_061a14c4_fb66_4f64_bf4a_289f5824a433))
-Declaration(Class(:EMMO_1191d114_5aec_4167_97b1_c0bca9414c49))
-Declaration(Class(:EMMO_15325775_6d4c_4192_82f1_e4feca9de426))
-Declaration(Class(:EMMO_1564363d_78ea_45be_a82f_2d12e40022ab))
-Declaration(Class(:EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51))
-Declaration(Class(:EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a))
-Declaration(Class(:EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7))
-Declaration(Class(:EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2))
-Declaration(Class(:EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca))
-Declaration(Class(:EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514))
-Declaration(Class(:EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c))
-Declaration(Class(:EMMO_5555b4bc_216e_4772_a914_b66b6e783079))
-Declaration(Class(:EMMO_58413d4e_2885_459e_ac06_8d45e661cf91))
-Declaration(Class(:EMMO_5ae0d63a_51a9_433f_b92b_da7fd66ace6e))
-Declaration(Class(:EMMO_7641e8f5_9432_4a6d_80ac_58aa5253a889))
-Declaration(Class(:EMMO_8c808507_976a_4225_8099_604dc7abc5ea))
-Declaration(Class(:EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef))
-Declaration(Class(:EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee))
-Declaration(Class(:EMMO_a8d7e181_945d_4a26_a4b0_15688566df8c))
-Declaration(Class(:EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa))
-Declaration(Class(:EMMO_b199577a_455d_4fef_bb96_add662689d73))
-Declaration(Class(:EMMO_b2d11f0d_c1b0_4476_8d17_03b73d31e01f))
-Declaration(Class(:EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc))
-Declaration(Class(:EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9))
-Declaration(Class(:EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343))
-Declaration(Class(:EMMO_edc98332_248a_436a_a352_5a7897150c4f))
-Declaration(Class(:EMMO_f1c7eacb_9f21_4100_925c_3974f266e06f))
-Declaration(Class(:EMMO_f54474fc_5d07_474b_97ae_f5d0349363b4))
-Declaration(Class(<https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell>))
-
-
-
-############################
-#   Classes
-############################
-
-# Class: :EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b (:EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b)
-
-AnnotationAssertion(Annotation(<http://emmo.info/emmo#EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f> "466-11-01") Annotation(<http://purl.org/dc/terms/source> "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=466-11-01") <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b "A device which keeps the sub-conductors of a bundle in a given geometrical configuration.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b "Spacer"@en)
-SubClassOf(:EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b :EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514)
-SubClassOf(:EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_dd15b4b0-11e7-4900-b379-9702a8caa6bb>)
-
-# Class: :EMMO_061a14c4_fb66_4f64_bf4a_289f5824a433 (:EMMO_061a14c4_fb66_4f64_bf4a_289f5824a433)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_061a14c4_fb66_4f64_bf4a_289f5824a433 "MetalCarbondioxideFlowBatteryy"@en)
-SubClassOf(:EMMO_061a14c4_fb66_4f64_bf4a_289f5824a433 :EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef)
-
-# Class: :EMMO_1191d114_5aec_4167_97b1_c0bca9414c49 (:EMMO_1191d114_5aec_4167_97b1_c0bca9414c49)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_1191d114_5aec_4167_97b1_c0bca9414c49 "Full RFB with non-aqueous metalic electrolyte.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_1191d114_5aec_4167_97b1_c0bca9414c49 "NonAqueousMetallicFlowBattery"@en)
-SubClassOf(:EMMO_1191d114_5aec_4167_97b1_c0bca9414c49 :EMMO_8c808507_976a_4225_8099_604dc7abc5ea)
-
-# Class: :EMMO_15325775_6d4c_4192_82f1_e4feca9de426 (:EMMO_15325775_6d4c_4192_82f1_e4feca9de426)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_15325775_6d4c_4192_82f1_e4feca9de426 "IonExchangeMembrane"@en)
-SubClassOf(:EMMO_15325775_6d4c_4192_82f1_e4feca9de426 <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0>)
-
-# Class: :EMMO_1564363d_78ea_45be_a82f_2d12e40022ab (:EMMO_1564363d_78ea_45be_a82f_2d12e40022ab)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_1564363d_78ea_45be_a82f_2d12e40022ab "FullFlowCell"@en)
-SubClassOf(:EMMO_1564363d_78ea_45be_a82f_2d12e40022ab <https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell>)
-DisjointClasses(:EMMO_1564363d_78ea_45be_a82f_2d12e40022ab :EMMO_f54474fc_5d07_474b_97ae_f5d0349363b4)
-
-# Class: :EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51 (:EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51 "Tank to store the catholyte")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51 "CatholyteTank"@en)
-SubClassOf(:EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51 :EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9)
-SubClassOf(:EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51 ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> <http://emmo.info/emmo#EMMO_ad3b994f_0ea6_4529_b863_3ff9110d6abe>))
-SubClassOf(:EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51 ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_15b852b5_19cc_49ab_849f_7df6175fb2be>))
-DisjointClasses(:EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51 :EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc)
-
-# Class: :EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a (:EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a)
-
-AnnotationAssertion(Annotation(<http://emmo.info/emmo#EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f> "485-06-06") Annotation(<http://purl.org/dc/terms/source> "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=485-06-06") <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a "component located on each of the two ends of the fuel cell stack, serving to transmit the required compression to the stacked cells")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a "EndPlate"@en)
-SubClassOf(:EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a :EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514)
-SubClassOf(:EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_dd15b4b0-11e7-4900-b379-9702a8caa6bb>)
-
-# Class: :EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7 (:EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7)
-
-AnnotationAssertion(Annotation(<http://emmo.info/emmo#EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f> "726-08-18") Annotation(<http://purl.org/dc/terms/source> "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=726-08-18") <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7 "A thick metallic plate having seals built into its faces, a very short waveguide section normal to those faces, and locating bolt holes normal to those faces to allow for mounting between mating waveguide flanges")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7 "Gasket"@en)
-SubClassOf(:EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7 :EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514)
-SubClassOf(:EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7 <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_dd15b4b0-11e7-4900-b379-9702a8caa6bb>)
-
-# Class: :EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2 (:EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2 "Alternatives to full and hybride redox flow batteries.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2 "AlternativeFullFlowBattery"@en)
-SubClassOf(:EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2 :EMMO_8c808507_976a_4225_8099_604dc7abc5ea)
-
-# Class: :EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca (:EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca "Full RFB with Aqueous organic electrolyte.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca "AqueousOrganicFlowBattery"@en)
-SubClassOf(:EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca :EMMO_8c808507_976a_4225_8099_604dc7abc5ea)
-
-# Class: :EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514 (:EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514 "A component that is essential to the function of a Electrchemical Flow cell.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514 "ElectrochemicalFlowCellComponent"@en)
-SubClassOf(:EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514 :EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee)
-
-# Class: :EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c (:EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c "Machine which circulates electrolytes between the cell stack and the resevoirs.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c "Pump"@en)
-SubClassOf(:EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c :EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee)
-
-# Class: :EMMO_5555b4bc_216e_4772_a914_b66b6e783079 (:EMMO_5555b4bc_216e_4772_a914_b66b6e783079)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_5555b4bc_216e_4772_a914_b66b6e783079 "Full RFB with non-aqueous organic electrolyte.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_5555b4bc_216e_4772_a914_b66b6e783079 "NonAqueousOrganicFlowBattery"@en)
-SubClassOf(:EMMO_5555b4bc_216e_4772_a914_b66b6e783079 :EMMO_8c808507_976a_4225_8099_604dc7abc5ea)
-
-# Class: :EMMO_58413d4e_2885_459e_ac06_8d45e661cf91 (:EMMO_58413d4e_2885_459e_ac06_8d45e661cf91)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_58413d4e_2885_459e_ac06_8d45e661cf91 "PorousSeparator"@en)
-SubClassOf(:EMMO_58413d4e_2885_459e_ac06_8d45e661cf91 <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0>)
-
-# Class: :EMMO_5ae0d63a_51a9_433f_b92b_da7fd66ace6e (:EMMO_5ae0d63a_51a9_433f_b92b_da7fd66ace6e)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_5ae0d63a_51a9_433f_b92b_da7fd66ace6e "MembranelessFlowBattery"@en)
-SubClassOf(:EMMO_5ae0d63a_51a9_433f_b92b_da7fd66ace6e :EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2)
-
-# Class: :EMMO_7641e8f5_9432_4a6d_80ac_58aa5253a889 (:EMMO_7641e8f5_9432_4a6d_80ac_58aa5253a889)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_7641e8f5_9432_4a6d_80ac_58aa5253a889 "MetalAir"@en)
-SubClassOf(:EMMO_7641e8f5_9432_4a6d_80ac_58aa5253a889 :EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa)
-DisjointClasses(:EMMO_7641e8f5_9432_4a6d_80ac_58aa5253a889 :EMMO_a8d7e181_945d_4a26_a4b0_15688566df8c)
-
-# Class: :EMMO_8c808507_976a_4225_8099_604dc7abc5ea (:EMMO_8c808507_976a_4225_8099_604dc7abc5ea)
-
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> "https://doi.org/10.1016/j.jpowsour.2020.228804") <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_8c808507_976a_4225_8099_604dc7abc5ea "A type of Redox flow batteries. Full flow batteries store electroactive material only in outer tanks and flown through the cell n its reduced and oxidized states.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_8c808507_976a_4225_8099_604dc7abc5ea "FullFlowBattery"@en)
-SubClassOf(:EMMO_8c808507_976a_4225_8099_604dc7abc5ea :EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef)
-SubClassOf(:EMMO_8c808507_976a_4225_8099_604dc7abc5ea ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> :EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51))
-SubClassOf(:EMMO_8c808507_976a_4225_8099_604dc7abc5ea ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> :EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c))
-SubClassOf(:EMMO_8c808507_976a_4225_8099_604dc7abc5ea ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> :EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc))
-SubClassOf(:EMMO_8c808507_976a_4225_8099_604dc7abc5ea ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> <https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell>))
-
-# Class: :EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef (:EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef)
-
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> "https://en.wikipedia.org/wiki/Flow_battery") <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef "A Redox flow battery a type of electrochemical cell where chemical energy is provided by two chemical components dissolved in liquids that are pumped through the system on separate sides of a membrane")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef "RedoxFlowBattery"@en)
-SubClassOf(:EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef <https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_74ed2670_657d_4f0b_b0a6_3f13bc2e9c17>)
-
-# Class: :EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee (:EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee "A component that is essential to the function of a Flow Battery.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee "FlowBatteryComponent"@en)
-SubClassOf(:EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee <http://emmo.info/emmo#EMMO_038e37a3_1684_4980_b5e4_67ab34cd5bdb>)
-
-# Class: :EMMO_a8d7e181_945d_4a26_a4b0_15688566df8c (:EMMO_a8d7e181_945d_4a26_a4b0_15688566df8c)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_a8d7e181_945d_4a26_a4b0_15688566df8c "MetalSolution"@en)
-SubClassOf(:EMMO_a8d7e181_945d_4a26_a4b0_15688566df8c :EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa)
-
-# Class: :EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa (:EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa)
-
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> "https://doi.org/10.1016/j.jpowsour.2020.228804") <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa "A type of Redox flow batteries. Hybdrid flow batteries comprising at least one solid electroactive material that is deposited or stripped within the stack.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa "HybridFlowBattery"@en)
-SubClassOf(:EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa :EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef)
-
-# Class: :EMMO_b199577a_455d_4fef_bb96_add662689d73 (:EMMO_b199577a_455d_4fef_bb96_add662689d73)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_b199577a_455d_4fef_bb96_add662689d73 "SolarFlowBattery"@en)
-SubClassOf(:EMMO_b199577a_455d_4fef_bb96_add662689d73 :EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef)
-
-# Class: :EMMO_b2d11f0d_c1b0_4476_8d17_03b73d31e01f (:EMMO_b2d11f0d_c1b0_4476_8d17_03b73d31e01f)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_b2d11f0d_c1b0_4476_8d17_03b73d31e01f "AsymmetricMembrane"@en)
-SubClassOf(:EMMO_b2d11f0d_c1b0_4476_8d17_03b73d31e01f <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0>)
-
-# Class: :EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc (:EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc "Tank to store the anolyte.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc "AnolyteTank"@en)
-SubClassOf(:EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc :EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9)
-SubClassOf(:EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> <http://emmo.info/emmo#EMMO_ccca85a5_8a24_4591_93ee_1f137a386bab>))
-SubClassOf(:EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_865a40fc_2187_4549_a7e1_37aa2458448f>))
-
-# Class: :EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9 (:EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9 "Tank to store the anolyte and catolyte.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9 "EnergyStorageTank"@en)
-SubClassOf(:EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9 :EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee)
-
-# Class: :EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343 (:EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343 "3D Pattern in wich electrolyte is distributed over space and time trough the electrochemical flowcell. 
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hendrik/ontologies/2022/9/untitled-ontology-51"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hendrik/ontologies/2022/9/untitled-ontology-51">
+    <Prefix name="" IRI="http://www.semanticweb.org/hendrik/ontologies/2022/9/untitled-ontology-51#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://big-map.github.io/BattINFO/ontology/BattINFO/0.3.0/battinfo.ttl</Import>
+    <Declaration>
+        <Class IRI="#EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_061a14c4_fb66_4f64_bf4a_289f5824a433"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_1191d114_5aec_4167_97b1_c0bca9414c49"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_15325775_6d4c_4192_82f1_e4feca9de426"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_1564363d_78ea_45be_a82f_2d12e40022ab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_5555b4bc_216e_4772_a914_b66b6e783079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_58413d4e_2885_459e_ac06_8d45e661cf91"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_5ae0d63a_51a9_433f_b92b_da7fd66ace6e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_7641e8f5_9432_4a6d_80ac_58aa5253a889"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_a8d7e181_945d_4a26_a4b0_15688566df8c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_b199577a_455d_4fef_bb96_add662689d73"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_b2d11f0d_c1b0_4476_8d17_03b73d31e01f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_edc98332_248a_436a_a352_5a7897150c4f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_f1c7eacb_9f21_4100_925c_3974f266e06f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMMO_f54474fc_5d07_474b_97ae_f5d0349363b4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b"/>
+        <Class IRI="#EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_dd15b4b0-11e7-4900-b379-9702a8caa6bb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_061a14c4_fb66_4f64_bf4a_289f5824a433"/>
+        <Class IRI="#EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_1191d114_5aec_4167_97b1_c0bca9414c49"/>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_15325775_6d4c_4192_82f1_e4feca9de426"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_1564363d_78ea_45be_a82f_2d12e40022ab"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51"/>
+        <Class IRI="#EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="http://emmo.info/emmo#EMMO_ad3b994f_0ea6_4529_b863_3ff9110d6abe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_15b852b5_19cc_49ab_849f_7df6175fb2be"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a"/>
+        <Class IRI="#EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_dd15b4b0-11e7-4900-b379-9702a8caa6bb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7"/>
+        <Class IRI="#EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_dd15b4b0-11e7-4900-b379-9702a8caa6bb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2"/>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca"/>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514"/>
+        <Class IRI="#EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c"/>
+        <Class IRI="#EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_5555b4bc_216e_4772_a914_b66b6e783079"/>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_58413d4e_2885_459e_ac06_8d45e661cf91"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_5ae0d63a_51a9_433f_b92b_da7fd66ace6e"/>
+        <Class IRI="#EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_7641e8f5_9432_4a6d_80ac_58aa5253a889"/>
+        <Class IRI="#EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+        <Class IRI="#EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="#EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="#EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="#EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_74ed2670_657d_4f0b_b0a6_3f13bc2e9c17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee"/>
+        <Class IRI="http://emmo.info/emmo#EMMO_038e37a3_1684_4980_b5e4_67ab34cd5bdb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_a8d7e181_945d_4a26_a4b0_15688566df8c"/>
+        <Class IRI="#EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa"/>
+        <Class IRI="#EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_b199577a_455d_4fef_bb96_add662689d73"/>
+        <Class IRI="#EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_b2d11f0d_c1b0_4476_8d17_03b73d31e01f"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc"/>
+        <Class IRI="#EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="http://emmo.info/emmo#EMMO_ccca85a5_8a24_4591_93ee_1f137a386bab"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_865a40fc_2187_4549_a7e1_37aa2458448f"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9"/>
+        <Class IRI="#EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343"/>
+        <Class IRI="#EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_edc98332_248a_436a_a352_5a7897150c4f"/>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_f1c7eacb_9f21_4100_925c_3974f266e06f"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMMO_f54474fc_5d07_474b_97ae_f5d0349363b4"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell"/>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_68ed592a_7924_45d0_a108_94d6275d57f0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="#EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_15b852b5_19cc_49ab_849f_7df6175fb2be"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_212af058_3bbb_419f_a9c6_90ba9ebb3706"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+            <Class IRI="https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_865a40fc_2187_4549_a7e1_37aa2458448f"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b"/>
+        <Class IRI="#EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a"/>
+        <Class IRI="#EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7"/>
+        <Class IRI="#EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EMMO_061a14c4_fb66_4f64_bf4a_289f5824a433"/>
+        <Class IRI="#EMMO_8c808507_976a_4225_8099_604dc7abc5ea"/>
+        <Class IRI="#EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa"/>
+        <Class IRI="#EMMO_b199577a_455d_4fef_bb96_add662689d73"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EMMO_1191d114_5aec_4167_97b1_c0bca9414c49"/>
+        <Class IRI="#EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2"/>
+        <Class IRI="#EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca"/>
+        <Class IRI="#EMMO_5555b4bc_216e_4772_a914_b66b6e783079"/>
+        <Class IRI="#EMMO_edc98332_248a_436a_a352_5a7897150c4f"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EMMO_15325775_6d4c_4192_82f1_e4feca9de426"/>
+        <Class IRI="#EMMO_58413d4e_2885_459e_ac06_8d45e661cf91"/>
+        <Class IRI="#EMMO_b2d11f0d_c1b0_4476_8d17_03b73d31e01f"/>
+        <Class IRI="#EMMO_f1c7eacb_9f21_4100_925c_3974f266e06f"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EMMO_1564363d_78ea_45be_a82f_2d12e40022ab"/>
+        <Class IRI="#EMMO_f54474fc_5d07_474b_97ae_f5d0349363b4"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51"/>
+        <Class IRI="#EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514"/>
+        <Class IRI="#EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c"/>
+        <Class IRI="#EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EMMO_7641e8f5_9432_4a6d_80ac_58aa5253a889"/>
+        <Class IRI="#EMMO_a8d7e181_945d_4a26_a4b0_15688566df8c"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f"/>
+            <Literal>466-11-01</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+            <Literal>https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=466-11-01</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b</IRI>
+        <Literal>A device which keeps the sub-conductors of a bundle in a given geometrical configuration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b</IRI>
+        <Literal xml:lang="en">Spacer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_061a14c4_fb66_4f64_bf4a_289f5824a433</IRI>
+        <Literal xml:lang="en">MetalCarbondioxideFlowBatteryy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_1191d114_5aec_4167_97b1_c0bca9414c49</IRI>
+        <Literal>Full RFB with non-aqueous metalic electrolyte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_1191d114_5aec_4167_97b1_c0bca9414c49</IRI>
+        <Literal xml:lang="en">NonAqueousMetallicFlowBattery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_15325775_6d4c_4192_82f1_e4feca9de426</IRI>
+        <Literal xml:lang="en">IonExchangeMembrane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_1564363d_78ea_45be_a82f_2d12e40022ab</IRI>
+        <Literal xml:lang="en">FullFlowCell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51</IRI>
+        <Literal>Tank to store the catholyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_1b530fc6_dcfc_4ef2_aa72_1f115a02cb51</IRI>
+        <Literal xml:lang="en">CatholyteTank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f"/>
+            <Literal>485-06-06</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+            <Literal>https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=485-06-06</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a</IRI>
+        <Literal>component located on each of the two ends of the fuel cell stack, serving to transmit the required compression to the stacked cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a</IRI>
+        <Literal xml:lang="en">EndPlate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f"/>
+            <Literal>726-08-18</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+            <Literal>https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=726-08-18</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7</IRI>
+        <Literal>A thick metallic plate having seals built into its faces, a very short waveguide section normal to those faces, and locating bolt holes normal to those faces to allow for mounting between mating waveguide flanges</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7</IRI>
+        <Literal xml:lang="en">Gasket</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2</IRI>
+        <Literal>Alternatives to full and hybride redox flow batteries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2</IRI>
+        <Literal xml:lang="en">AlternativeFullFlowBattery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca</IRI>
+        <Literal>Full RFB with Aqueous organic electrolyte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca</IRI>
+        <Literal xml:lang="en">AqueousOrganicFlowBattery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514</IRI>
+        <Literal>A component that is essential to the function of a Electrchemical Flow cell.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514</IRI>
+        <Literal xml:lang="en">ElectrochemicalFlowCellComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c</IRI>
+        <Literal>Machine which circulates electrolytes between the cell stack and the resevoirs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c</IRI>
+        <Literal xml:lang="en">Pump</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_5555b4bc_216e_4772_a914_b66b6e783079</IRI>
+        <Literal>Full RFB with non-aqueous organic electrolyte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_5555b4bc_216e_4772_a914_b66b6e783079</IRI>
+        <Literal xml:lang="en">NonAqueousOrganicFlowBattery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_58413d4e_2885_459e_ac06_8d45e661cf91</IRI>
+        <Literal xml:lang="en">PorousSeparator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_5ae0d63a_51a9_433f_b92b_da7fd66ace6e</IRI>
+        <Literal xml:lang="en">MembranelessFlowBattery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_7641e8f5_9432_4a6d_80ac_58aa5253a889</IRI>
+        <Literal xml:lang="en">MetalAir</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+            <Literal>https://doi.org/10.1016/j.jpowsour.2020.228804</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_8c808507_976a_4225_8099_604dc7abc5ea</IRI>
+        <Literal>A type of Redox flow batteries. Full flow batteries store electroactive material only in outer tanks and flown through the cell n its reduced and oxidized states.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_8c808507_976a_4225_8099_604dc7abc5ea</IRI>
+        <Literal xml:lang="en">FullFlowBattery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+            <Literal>https://en.wikipedia.org/wiki/Flow_battery</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef</IRI>
+        <Literal>A Redox flow battery a type of electrochemical cell where chemical energy is provided by two chemical components dissolved in liquids that are pumped through the system on separate sides of a membrane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_8f363e2e_8258_415d_8784_9a60fce9aeef</IRI>
+        <Literal xml:lang="en">RedoxFlowBattery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee</IRI>
+        <Literal>A component that is essential to the function of a Flow Battery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_9389ea28_9ce5_4abd_a078_8ce2b0c91eee</IRI>
+        <Literal xml:lang="en">FlowBatteryComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_a8d7e181_945d_4a26_a4b0_15688566df8c</IRI>
+        <Literal xml:lang="en">MetalSolution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+            <Literal>https://doi.org/10.1016/j.jpowsour.2020.228804</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa</IRI>
+        <Literal>A type of Redox flow batteries. Hybdrid flow batteries comprising at least one solid electroactive material that is deposited or stripped within the stack.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa</IRI>
+        <Literal xml:lang="en">HybridFlowBattery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_b199577a_455d_4fef_bb96_add662689d73</IRI>
+        <Literal xml:lang="en">SolarFlowBattery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_b2d11f0d_c1b0_4476_8d17_03b73d31e01f</IRI>
+        <Literal xml:lang="en">AsymmetricMembrane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc</IRI>
+        <Literal>Tank to store the anolyte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_c9c213cb_778c_4fa6_813e_4e8602f629fc</IRI>
+        <Literal xml:lang="en">AnolyteTank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9</IRI>
+        <Literal>Tank to store the anolyte and catolyte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9</IRI>
+        <Literal xml:lang="en">EnergyStorageTank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343</IRI>
+        <Literal>3D Pattern in wich electrolyte is distributed over space and time trough the electrochemical flowcell. 
 
 See
-https://doi.org/10.1016/j.jpowsour.2018.09.09334")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343 "Flowfield"@en)
-SubClassOf(:EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343 :EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514)
+https://doi.org/10.1016/j.jpowsour.2018.09.09334</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343</IRI>
+        <Literal xml:lang="en">Flowfield</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9"/>
+        <IRI>#EMMO_edc98332_248a_436a_a352_5a7897150c4f</IRI>
+        <Literal>Full RFB with aqueous metalic electrolytes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_edc98332_248a_436a_a352_5a7897150c4f</IRI>
+        <Literal xml:lang="en">AqueousMetalicFlowBattery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_f1c7eacb_9f21_4100_925c_3974f266e06f</IRI>
+        <Literal xml:lang="en">BilayerMembrane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#EMMO_f54474fc_5d07_474b_97ae_f5d0349363b4</IRI>
+        <Literal xml:lang="en">HybridFlowCell</Literal>
+    </AnnotationAssertion>
+</Ontology>
 
-# Class: :EMMO_edc98332_248a_436a_a352_5a7897150c4f (:EMMO_edc98332_248a_436a_a352_5a7897150c4f)
-
-AnnotationAssertion(<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> :EMMO_edc98332_248a_436a_a352_5a7897150c4f "Full RFB with aqueous metalic electrolytes.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_edc98332_248a_436a_a352_5a7897150c4f "AqueousMetalicFlowBattery"@en)
-SubClassOf(:EMMO_edc98332_248a_436a_a352_5a7897150c4f :EMMO_8c808507_976a_4225_8099_604dc7abc5ea)
-
-# Class: :EMMO_f1c7eacb_9f21_4100_925c_3974f266e06f (:EMMO_f1c7eacb_9f21_4100_925c_3974f266e06f)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_f1c7eacb_9f21_4100_925c_3974f266e06f "BilayerMembrane"@en)
-SubClassOf(:EMMO_f1c7eacb_9f21_4100_925c_3974f266e06f <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0>)
-
-# Class: :EMMO_f54474fc_5d07_474b_97ae_f5d0349363b4 (:EMMO_f54474fc_5d07_474b_97ae_f5d0349363b4)
-
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :EMMO_f54474fc_5d07_474b_97ae_f5d0349363b4 "HybridFlowCell"@en)
-SubClassOf(:EMMO_f54474fc_5d07_474b_97ae_f5d0349363b4 <https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell>)
-
-# Class: <https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell> (<https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell>)
-
-SubClassOf(<https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell> <https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_68ed592a_7924_45d0_a108_94d6275d57f0>)
-SubClassOf(<https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell> ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> :EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514))
-SubClassOf(<https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell> ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_15b852b5_19cc_49ab_849f_7df6175fb2be>))
-SubClassOf(<https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell> ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_212af058_3bbb_419f_a9c6_90ba9ebb3706>))
-SubClassOf(<https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell> ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0>))
-SubClassOf(<https://big-map.github.io/BattINFO/ontology/electrochemistry#ElectrochemicalFlowCell> ObjectSomeValuesFrom(<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_865a40fc_2187_4549_a7e1_37aa2458448f>))
 
 
-DisjointClasses(:EMMO_0408de98_7b23_4684_b9d3_9c4165c6056b :EMMO_2efd86cf_1144_4f75_9e69_83e8de73f37a :EMMO_2ffed6eb_483a_4eec_8a35_966e705312e7 :EMMO_ebcd4c44_d594_42a5_8cfa_03af8651c343)
-DisjointClasses(:EMMO_061a14c4_fb66_4f64_bf4a_289f5824a433 :EMMO_8c808507_976a_4225_8099_604dc7abc5ea :EMMO_aaac65cb_050c_407a_953a_f3ad3b675baa :EMMO_b199577a_455d_4fef_bb96_add662689d73)
-DisjointClasses(:EMMO_1191d114_5aec_4167_97b1_c0bca9414c49 :EMMO_4292acfe_0e4b_4559_87ca_f5a4617f14b2 :EMMO_4a620a13_ef9f_40c7_8833_c6e0720ce3ca :EMMO_5555b4bc_216e_4772_a914_b66b6e783079 :EMMO_edc98332_248a_436a_a352_5a7897150c4f)
-DisjointClasses(:EMMO_15325775_6d4c_4192_82f1_e4feca9de426 :EMMO_58413d4e_2885_459e_ac06_8d45e661cf91 :EMMO_b2d11f0d_c1b0_4476_8d17_03b73d31e01f :EMMO_f1c7eacb_9f21_4100_925c_3974f266e06f)
-DisjointClasses(:EMMO_4c51fcff_7fc5_4a7f_994e_52d21ec3d514 :EMMO_50734932_c127_41ec_98a3_9b9b48af9c1c :EMMO_e7b7c17a_2f9b_4e2e_b4b1_0c5f281654b9)
-)
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
