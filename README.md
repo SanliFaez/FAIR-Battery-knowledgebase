@@ -32,6 +32,12 @@ FAIR = Findable, Accesable, Interoperatable, Reproducable
 + Flowbattery ontology
 + Protege incl screen shots
 + Link to Battinfo and where to find 'official' ontology
++ link to wikipedia
++ Give example of ontolgy
++ Why are ontologies relevant?
++ Generate ontology automatically? https://www.openaire.eu/opscidia-ontology-generator 
++ Onto trans?
+
 ## Data Base
 + What is in the database?
 + Why Zotero?
