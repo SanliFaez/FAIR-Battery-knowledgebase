@@ -21,13 +21,25 @@ FAIR = Findable, Accesable, Interoperatable, Reproducable
 + NWO funding code
 + Who conrtibuted: Sanli, Tom, Danny, Sintef/Battinfo
 + For who is this project/who is the end-user?
+    + This project is 
 + Why is FAIR battery search better than G**gle search?
 + How to read this readme 
 + Download instructions
 
 ## Ontology
+This section is based on the ontology development document of protege [1].
 + What is ontology
   + Elucidation
+  + When people talk with eachother, they use words to communicate a certain message. These words carry the message and are related to eachother. The order in which they are spoken give a specific meaning to these words and creates a context. In different contextes, words can have a different meaning. Even in the same context words can have different meanings.
+  + To concpetualize this process, people created the concept of ontology. "Ontology is a formal explicit description of concepts and their properties and attributes in a domain" [1]. 
+  +  For computers it is hard human language. Nevertheless, computers playing a huge part in human communication. 
+  + **Ontology**, several disciplines developed standard methodologies to communicate about their study objects, in the form of classification schemes, flow diagrams and other formal structures. These so called ontological systems are used to exchange and evolve knowledge between experts. This can foster common understanding in a certain domain and enable (re-)use of knowledge, standardize assumptions and much more.
+
+In order to work with ontologies will use the following definitions.
++ 
+1. Ontology
+Ontology is a formal explicit description of concepts and their properties and attributes in a domain
+of discourse.
 + What is flowbattery
 + Flowbattery ontology
 + Protege incl screen shots
@@ -37,11 +49,18 @@ FAIR = Findable, Accesable, Interoperatable, Reproducable
 + Why are ontologies relevant?
 + Generate ontology automatically? https://www.openaire.eu/opscidia-ontology-generator 
 + Onto trans?
++ **Sources**
+    + [1] N. F. Noy and D. L.MCGuinness, Ontology Development 101: A guide to Creating Your First
+Onotolgy. Stanford University. [Online]. 
+Available: https://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.html
 
 ## Data Base
 + What is in the database?
+    + The database contains 5000 articles related to flow batteries. The data contains, DOI, Titles, abstracts if available. 
 + Why Zotero?
+    + Zotero is an open source program, 
 + What is the ideal methadata? (DOI, abstract,text,...)
++ The database is freely available on this githubpage(enter link).
 + 
 ## Collect Data/Search with ontology
 + Explain pyton script data collection
