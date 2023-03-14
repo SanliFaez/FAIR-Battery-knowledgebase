@@ -17,46 +17,40 @@ FAIR = Findable, Accesable, Interoperatable, Reproducable
 ![Frontpage](https://github.com/hendelhendel/FAIR_Battery/blob/main/FairbatteryGithub.png?raw=true)
 
 ## Introduction
-The goal of the FAIR battery project is to make knowledge on flowbatteries, **F**indable, **A**ccecable, **I**nteroperatable and **R**eproducable. To create such an open source knowledgebase, it is needed to collect, search and order availble knowledge from papers , articles and patents. That is the goal of this Github page.
+The goal of the FAIR battery project is to create an open source knwoldegebase on redox flow batteries (RFB), where knowledge is **F**indable, **A**ccecable, **I**nteroperatable and **R**eproducable. Therefore, it is needed to collect, search and order availble knowledge from papers, articles and patents. On this Github page one can find the *proof of concept* in the form of a simple data base on RFB's and python scripts to process, or search, the data. The proposed end-user of this concept is a researcher on flow batteries, who needs specific information or those who want to share there own knwoldege on RFB's.
+By making use of the concept *ontology*, which is created with the help of *BIG-MAP/BattINFO*, the data is structerd. Below an overview of the project is given. By click on the links in the text one can learn in more detail about specific parts of the project. 
 
-Here one can find, a simple data base on redox flowbatteries. Furthermore, there are python scripts to process and search this data. The proposed end-user of this project, is a researcher on flow batteries, who needs specific information or want to share there own knwoldege. 
+The database can be found here <Link to database> while the python script can be downloaded/runned here<Enter link>. *Are you a possible contributer?* read here how to controbute <link>. Can you help us to make this FAIR battery search better than a G**gle search?
 
-+ Why is FAIR battery search better than G**gle search?
-+ How to read this readme 
-+ Download instructions
-
-This project is funded by the NWO, with funding code : ABCDEFG1234567. The research is done by the Utrecht University: Sanli Faez, Tom Hommes, Danny de wilde and Hendrik Snijder. Sintef has helped with the ontology development in this project.
-
+This project is funded by the NWO, with funding code : ABCDEFG1234567. The research is done by the Utrecht University: Sanli Faez, Tom Hommes, Danny de wild and Hendrik Snijder. Sintef has helped with the ontology development in this project.
 ## Ontology
-This section is based on the ontology development document of protege [1].
-+ What is ontology
-  + Elucidation
-  + When people talk with eachother, they use words to communicate a certain message. These words carry the message and are related to eachother. The order in which they are spoken give a specific meaning to these words and creates a context. In different contextes, words can have a different meaning. Even in the same context words can have different meanings.
-  + To concpetualize this process, people created the concept of ontology. "Ontology is a formal explicit description of concepts and their properties and attributes in a domain" [1]. 
-  +  For computers it is hard human language. Nevertheless, computers playing a huge part in human communication. 
-  + **Ontology**, several disciplines developed standard methodologies to communicate about their study objects, in the form of classification schemes, flow diagrams and other formal structures. These so called ontological systems are used to exchange and evolve knowledge between experts. This can foster common understanding in a certain domain and enable (re-)use of knowledge, standardize assumptions and much more.
-+ Flow battery ontology class
-In order to work with ontologies will use the following definitions.
-+ 
-1. Ontology
-Ontology is a formal explicit description of concepts and their properties and attributes in a domain
-of discourse.
-+ What is flowbattery
-+ Flowbattery ontology
-+ Protege incl screen shots
-+ Link to Battinfo and where to find 'official' ontology
-+ link to wikipedia
-+ Give example of ontolgy
-+ Why are ontologies relevant?
-+ Generate ontology automatically? https://www.openaire.eu/opscidia-ontology-generator 
-+ Onto trans?
-+ **Sources**
-    + [1] N. F. Noy and D. L.MCGuinness, Ontology Development 101: A guide to Creating Your First
+When people talk with eachother, they use words. These words are related to eachother and thogether they form a message. The order in which they are spoken creates context and give a specific meaning to eachoter. Even in the same context words can have different meanings. To concpetualize this process, people created the concept of ontology. "Ontology is a formal explicit description of concepts and their properties and attributes in a domain" [1]. Since human languages are full of ambiguities, such a formal description becomes relevant for computers to understand them. 
+
+For example in the case of written text an ontology is usefull to extract relevant information out of it. Therefore, several disciplines developed standard onotologies to communicate about their study objects, in the form of classification schemes, flow diagrams and other formal structures. These ontological systems are used to exchange and evolve knowledge between experts. This can foster comon understanding in a certain domain and enable (re-)use of knowledge, standardize assumptions and much more.
+
+In this project an ontology on redox flow batteries is created together with "BIG-MAP/BattINFO" <EnterLink>. To learn more about this ontology see <LinkToOntologyFolder>. With this ontology a search machine is created to search a database of articles related to redox flow batteries.
++ Ontology Readme .md
+    + What is ontology
+    + Elucidation
+    + Flow battery ontology classs
+    + What is flowbattery
+    + Flowbattery ontology
+    + Protege incl screen shots
+    + Link to Battinfo and where to find 'official' ontology
+    + link to wikipedia
+    + Give example of ontolgy
+    + Why are ontologies relevant?
+    + Generate ontology automatically? https://www.openaire.eu/opscidia-ontology-generator
+
+**References,**
+[1] N. F. Noy and D. L.MCGuinness, Ontology Development 101: A guide to Creating Your First
 Onotolgy. Stanford University. [Online]. 
 Available: https://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.html
 
 ## Flow Battery Database
-In this project around 5000 articles & patents related to flow batteries are collected in a Zotero database. Zotero is an open source tool to help researchers collect and organize their research documents such as articles. The flow battery database is exported as CSV and searched through by using our FAIR battery ontology. Both datasets are available as data.CSV on this Github Page <InsertLink> as:
+In this project around 5000 articles & patents related to flow batteries are collected in a Zotero database. Zotero is an open source tool to help researchers collect and organize their research documents such as articles. The flow battery database is exported as CSV and searched through by using our FAIR battery ontology. Both datasets are available as data.CSV on this Github Page <InsertLink> as **raw data.csv** and **Processed data.csv**. See <Enter link> to learn more about the data structure.
+
+**------------------- Begin Move to data folder readme ------------------**
 + (i) **Raw data.CSV**, containing item specific information. The CSV contains 87 columns, which are listed below. The column "Abstract Note" is used to process the data.
 	+   Type 'FAIR_Battery_Project' in the search area of <https://www.zotero.org/search/type/group>, to see the Zotero folders.
 + (ii) **Processed data.CSV**, containing raw data supplemented with a column for every ontology class in the flow battery ontology. In each column, there is stored whether the specific ontological term is found in the abstract. If so, the sentences in which this 'keyword' is found, is stored. On every entry this is stored as a list, with 'y' or 'n', where the position in the list corresponds the number of the sentence in the abstract.
@@ -80,12 +74,25 @@ This contains the raw data columnnames and the ontology classes as column names.
 
 ![image](https://user-images.githubusercontent.com/93695286/224756657-827f7265-866b-468a-b7ce-fe231d4bfdfb.png)
 
-## Collect Data/Search with ontology
-With the raw data and the ontology one can search the data using the ontology. This is done in the python script, "NAME_SCRIPT".
-To open this script one need to, .. 
+**------------------- End Move to data folder readme ------------------**
+
+#### Process raw data with ontology
+The abstracts of articles in the raw dataset are searched through on ontology terms in the FAIR battery ontology. This resulted in the processed data file, see figure below. To process the data, the script *DataProcessorNotebook* is used. See <Link> to download/run python script.
+
+![image](https://user-images.githubusercontent.com/93695286/225056874-164241a9-e773-4dd7-ace5-edbe8e8fc8b4.png)
+
+**Figure:** The script "DataProcessorNotebook" imports the raw data as a csv and the ontology as a ttl file. After searching the abstracts one stores if a specific ontology class has been found, and if so in which sentences. The resulting dataset is input for the data search engine below. 
+
+**--- begin Move to data readme---**
 + Explain pyton script data collection
 + Python environment
-## Search Data egine
+**--- end Move to data readme---**
+
+## Data Search Engine
+	
+![image](https://user-images.githubusercontent.com/93695286/225059361-6accd9bf-e2d3-4a30-a400-bbb9daf50f75.png)
+
+**Figure:** The processed data is imported as a pickle file. The search interface notebook launches a search machine where one can enter a search quiry. In the example above, a search on the ontology term electrolyte is done. The 
 + Explain pytho script search egine
 + Python environment
 + Explain PyQt5 and how to add new things
@@ -143,7 +150,7 @@ A more creative use is to enter a new data set of articles and/or another ontolo
 + Batt Info
 
 ## Project logbook
-+ Biggest challenges allong the way
++ Biggest challenges along the way
 
 ## Acknowledgement & Coworkers & Contributors
 + Sanli Faez, University of Utrecht
