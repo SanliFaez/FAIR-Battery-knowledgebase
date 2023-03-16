@@ -25,16 +25,20 @@ The database can be found here <Link to database> while the python script can be
 This project is funded by the NWO, with funding code : ABCDEFG1234567. The research is done by the Utrecht University: Sanli Faez, Tom Hommes, Danny de wild and Hendrik Snijder. Sintef has helped with the ontology development in this project.
 
 ## Ontology
-When people talk with each other, they use words. These words are related to each other and together they form a message. The order in which they are spoken creates context and give a specific meaning to each other. Even in the same context words can have different meanings. To conceptualize this process, people created the concept of ontology. "Ontology is a formal explicit description of concepts and their properties and attributes in a domain" [1]. Since human languages are full of ambiguities, such a formal description becomes relevant for computers to understand them.
+When people talk with each other, they use words. These words are related to each other and together they form a message. The order in which they are spoken creates context and give a specific meaning to them. Even in the same context words can have different meanings. To conceptualize this process, people created the concept of ontology. "Ontology is a formal explicit description of concepts and their properties and attributes in a domain" [1]. Since human languages are full of ambiguities, a formal description becomes relevant for computers to understand them.
 
 For example in the case of written text an ontology is useful to extract relevant information out of it. Therefore, several disciplines developed standard ontologies to communicate about their study objects, in the form of classification schemes, flow diagrams and other formal structures. These ontological systems are used to exchange and evolve knowledge between experts. This can foster common understanding in a certain domain and enable (re-)use of knowledge, standardize assumptions and much more.
 
-In this project an ontology on redox flow batteries is created together with "BIG-MAP/BattINFO" <EnterLink>. To learn more about this ontology see <LinkToOntologyFolder>. With this ontology a search machine is created to search a database of articles related to redox flow batteries.
+In this project an ontology on redox flow batteries is created with help from "BIG-MAP/BattINFO" <https://github.com/BIG-MAP/BattINFO>. To learn more about the FAIR battery ontology see <https://github.com/SanliFaez/FAIR-Battery-knowledgebase/tree/main/Ontology>. With this ontology a search machine is created to search a database of articles related to redox flow batteries [2].
 
 **References,**
 [1] N. F. Noy and D. L.MCGuinness, Ontology Development 101: A guide to Creating Your First
 Ontology. Stanford University. [Online]. 
 Available: https://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.html
+
+[2] Edgar Ventosa, Massimo Guarnieri, Andrea Trovò, Cristina Flox, Rebeca Marcilla, Francesca Soavi, Petr Mazur, Estibaliz Aranzabe, Raquel Ferret.
+Redox flow batteries: Status and perspective towards sustainable stationary energy storage,
+Available:  https://doi.org/10.1016/j.jpowsour.2020.228804 Eduardo Sánchez-Díez,  
 
 ## Flow Battery Database
 In this project around 5000 articles & patents related to flow batteries are collected in a Zotero database. Zotero is an open source tool to help researchers collect and organize their research documents such as articles. The flow battery database is exported as CSV and searched through by using our FAIR battery ontology. Both datasets are available as data.CSV on this Github Page <https://github.com/SanliFaez/FAIR-Battery-knowledgebase/tree/main/Datamanagement> as **Data_Raw.csv** and **ProcessedData.csv**. See the page above to learn more about the data structure.
