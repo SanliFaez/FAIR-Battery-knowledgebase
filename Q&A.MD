@@ -26,4 +26,10 @@ In a first round of feedback, some questions raised. Solved issues are
 + Explain details of how the GUi and the dataset is made
 + Make it stable --> make it reproducible
 
+**Wuture version of the FAIR Battery Interface?**
+A vision of the future FAIR Battery Interface. These ideas are submitted as issues, so that future contributors can work on them.
+
+![image](https://user-images.githubusercontent.com/93695286/225376919-10fb6a4d-c313-401b-983e-e74cc3bd9272.png)
+![image](https://user-images.githubusercontent.com/93695286/225377004-adbf3ac2-8c64-4fde-a23f-c5a09d5e4cc4.png)
+
 For open issues: See issues  
