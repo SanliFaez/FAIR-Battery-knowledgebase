@@ -31,7 +31,8 @@ For example in the case of written text an ontology is useful to extract relevan
 
 In this project an ontology on redox flow batteries is created with help from "BIG-MAP/BattINFO" <https://github.com/BIG-MAP/BattINFO>. To learn more about the FAIR battery ontology see <https://github.com/SanliFaez/FAIR-Battery-knowledgebase/tree/main/Ontology>. With this ontology a search machine is created to search a database of articles related to redox flow batteries [2].
 
-**References,**
+**References**
+
 [1] N. F. Noy and D. L.MCGuinness, Ontology Development 101: A guide to Creating Your First
 Ontology. Stanford University. [Online]. 
 Available: https://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.html
