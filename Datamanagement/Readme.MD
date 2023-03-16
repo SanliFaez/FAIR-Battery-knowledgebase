@@ -10,7 +10,7 @@ There are two options to run the data processor notebook.
 + Open DataProcessor.ipynb in Google Colab
 + Download the files: 'DataProcessor.ipynb', 'environment.txt' and 'fairbattery.yml' to create an environment with the correct packages. After installing, one can run the pythonscript locally. The processed data will be exported as csv and pickle file automatically in the same folder. 
 
-## Tw data sets.
+## Two data sets.
 + (i) **Raw data.CSV**, containing item specific information. The CSV contains 87 columns, which are listed below. The column "Abstract Note" is used to process the data.
 	+   Type 'FAIR_Battery_Project' in the search area of <https://www.zotero.org/search/type/group>, to see the Zotero folders.
 + (ii) **Processed data.CSV**, containing raw data supplemented with a column for every ontology class in the flow battery ontology. In each column, there is stored whether the specific ontological term is found in the abstract. If so, the sentences in which this 'keyword' is found, is stored. On every entry this is stored as a list, with 'y' or 'n', where the position in the list corresponds the number of the sentence in the abstract.
