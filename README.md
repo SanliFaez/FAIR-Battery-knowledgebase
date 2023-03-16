@@ -1,7 +1,7 @@
 # FAIR Battery knowledgebase
 FAIR = Findable, Accessible, Interoperable, Reproducible
 
-Welcome to the repository of the FAIR battery project. This *open science* research line aims to create a knowledge base on flow batteries. This project is funded by the NWO, with funding code : **<ABCDEFG1234567>**. The research is done by the Utrecht University: Sanli Faez, Tom Hommes, Danny de wild and Hendrik Snijder. Sintef has helped with the ontology development in this project.
+Welcome to the repository of the FAIR battery project. This *open science* research line aims to create a knowledge base on flow batteries. This project is funded by the NWO, with funding code : **ABCDEFG1234567**. The research is done by the Utrecht University: Sanli Faez, Tom Hommes, Danny de wild and Hendrik Snijder. Sintef has helped with the ontology development in this project.
 
 Hendrik Snijder March 2023. 
 
@@ -14,6 +14,8 @@ By making use of the concept *ontology*, which is created with the help of *BIG-
 **Figure:** This scheme shows how different parts of the project are related to each other. On the left hand side, the ontology and Zotero database are imported into a jupyter-notebook. The Data is searched on for ontology terms, and stored as a dataframe. In the "DataProcessor" notebook this results in the processed data files, while in the "Processdata_adn_SearchInterface" notebook, the data frame is used to create a graphical user interface. The Notebook "SearchInterface" launches the same interface from the processed data files.
 
 The database can be found here <https://github.com/SanliFaez/FAIR-Battery-knowledgebase/tree/main/Datamanagement> while the GUI can be downloaded/runned here <https://github.com/SanliFaez/FAIR-Battery-knowledgebase/tree/main/GUI>. *Are you a possible contributor?* read below how to contribute. Can you help us to make this FAIR battery search better than a G**gle search?
+
+More information on redox flow batteries can be found here https://github.com/SanliFaez/FAIR-Battery-knowledgebase/blob/main/MoreInformation/Flowbattery.MD and future perspectives here https://github.com/SanliFaez/FAIR-Battery-knowledgebase/blob/main/MoreInformation/UserCase%26prospects.MD
 
 ## Ontology
 When people talk with each other, they use words. These words are related to each other and together they form a message. The order in which they are spoken creates context and gives a specific meaning to them. Even in the same context words can have different meanings. To conceptualize this process, people created the concept of ontology. "Ontology is a formal explicit description of concepts and their properties and attributes in a domain" [1]. Since human languages are full of ambiguities, a formal description becomes relevant for computers to understand them.
