@@ -3,7 +3,16 @@ FAIR = Findable, Accessible, Interoperable, Reproducible
 
 Welcome to the repository of the FAIR battery project. This *open science* research line aims to create a knowledge base on flow batteries. This project is funded by the NWO, with funding code : **ABCDEFG1234567**. The research is done by the Utrecht University: Sanli Faez, Tom Hommes, Danny de wild and Hendrik Snijder. Sintef has helped with the ontology development in this project.
 
+
+
+
 Hendrik Snijder March 2023. 
+
+
+
+**P.S.** For a quick test of our software and to acces the knowledgebase, please go to https://github.com/SanliFaez/FAIR-Battery-knowledgebase/tree/main/Demo to run the search egine live in Google Colab.
+
+
 
 ## Introduction
 The goal of the FAIR battery project is to create an open source knowledge base on redox flow batteries (RFB), where knowledge is **F**indable, **A**ccecable, **I**nteroperable and **R**eproducible. Therefore, it is needed to collect, search and order available knowledge from papers, articles and patents. On this Github page one can find the *proof of concept* in the form of a simple database on RFB's and jupyter-notebooks to process, or search, the data. The proposed end-user of this concept is a researcher on RFB's, who needs specific information, or those who want to share, knowledge on RFB's.
