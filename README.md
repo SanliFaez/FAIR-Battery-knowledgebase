@@ -56,6 +56,7 @@ There are several ways to use the python script on this web page. In the simples
 **Figure:** In this search engine one can search for articles in which specific words are used. These specific words are exactly those, forming the FAIR Battery ontology. By pressing those buttons, one can search through the database and see in which articles these ontological terms are mentioned. By using the "and'' and "or'' button, a search query can be created. Also direct typing of ontological terms is possible.
 
 **As a remark:** Note that this is work in progress. See future visions for more inspiration. See Q&A for more information on user cases and the first round of feedback on the interface. For open issues see issues. See the folder DEMO for a quick query search with your own query. https://github.com/SanliFaez/FAIR-Battery-knowledgebase/tree/main/Demo 
+**!Note!:** the reason to enter queries in via this screen avoids us to use SQL, which will make the programm less accesable for non-SQL users. If you are not familiar with python this can also be an obstacle. To avoid python try the demo on: https://github.com/SanliFaez/FAIR-Battery-knowledgebase/tree/main/Demo 
 
 ## Acknowledgement & Co Workers & Contributors
 + Sanli Faez, University of Utrecht
